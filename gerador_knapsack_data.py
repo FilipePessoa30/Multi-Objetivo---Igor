@@ -14,10 +14,10 @@ def gerar_problema_mochila(nome_arquivo, num_itens, capacidade, range_pesos, ran
 
 # Parâmetros para gerar o problema da mochila
 nome_arquivo = "new_knapsack_data.txt"
-num_itens = 100000
-capacidade = 1000
-range_pesos = (1, 100)  # Intervalo para os pesos dos itens
-range_lucros = (1, 45)  # Intervalo para os lucros dos itens
+num_itens = 100
+capacidade = 10
+range_pesos = (1, 8)  # Intervalo para os pesos dos itens
+range_lucros = (1, 30)  # Intervalo para os lucros dos itens
 
 # Gerar o problema da mochila e salvar no arquivo
 gerar_problema_mochila(nome_arquivo, num_itens, capacidade, range_pesos, range_lucros)
